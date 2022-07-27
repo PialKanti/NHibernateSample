@@ -30,6 +30,7 @@ namespace NHibernateSample
             personDataGridView.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             personDataGridView.ColumnHeadersDefaultCellStyle.Font = new Font(personDataGridView.Font, FontStyle.Bold);
             personDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            personDataGridView.AllowUserToAddRows = false;
             personDataGridView.ReadOnly = true;
             personDataGridView.ColumnCount = 5;
             personDataGridView.CellContentClick += PersonDataGridView_CellContentClick;
